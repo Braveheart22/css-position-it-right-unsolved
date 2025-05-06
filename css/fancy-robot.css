@@ -1,5 +1,5 @@
 .robot-container {
-    top: 25px;
+    top: 35px;
     position: relative;
     margin: 80px auto;
     width: fit-content;
@@ -10,39 +10,47 @@
     position: relative;
     width: 300px;
     aspect-ratio: 1 / 1;
-    background: #1c2b3f;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-    border: 5px solid #00fdfd;
+    background: aqua;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%);
+    border: 5px solid aqua;
     border-radius: 12px;
-    box-shadow: 0 0 20px #00fdfd;
+    box-shadow: 0 0 0 5px aqua;
     padding: 10px;
+}
+
+.robot-face-shape::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #1c2b3f;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%);
 }
 
 .robot-eye-left {
     position: absolute;
-    top: 35%;
+    top: 30%;
     width: 40px;
     height: 40px;
     background: #ccf9ff;
     border-radius: 50%;
-    box-shadow: 0 0 10px #00fdfd;
+    box-shadow: 0 0 10px aqua;
     left: 20%;
 }
 
 .robot-eye-right {
     position: absolute;
-    top: 35%;
+    top: 30%;
     width: 40px;
     height: 40px;
     background: #ccf9ff;
     border-radius: 50%;
-    box-shadow: 0 0 10px #00fdfd;
+    box-shadow: 0 0 10px aqua;
     right: 20%;
 }
 
 .robot-ear-left {
     position: absolute;
-    left: 10px;
+    left: 12px;
     top: 50%;
     transform: translateY(-50%);
     width: 20px;
@@ -60,7 +68,7 @@
 
 .robot-ear-right {
     position: absolute;
-    right: 10px;
+    right: 12px;
     top: 50%;
     transform: translateY(-50%);
     width: 20px;
@@ -78,12 +86,12 @@
 
 .robot-nose {
     position: absolute;
-    top: 52%;
+    top: 45%;
     left: 50%;
     transform: translateX(-50%);
     width: 6px;
-    height: 30px;
-    background: #00fdfd;
+    height: 50px;
+    background: aqua;
     border-radius: 2px;
 }
 
@@ -98,7 +106,7 @@
     width: 180px;
     height: 40px;
     background: #1c2b3f;
-    border-radius: 0 0 50px 50px;
+    border-radius: 0 0 60px 60px;
     padding: 4px;
     overflow: hidden;
 }
@@ -110,7 +118,7 @@
 
 .robot-hair-style {
     position: absolute;
-    top: -30px;
+    top: -45px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -119,19 +127,20 @@
 }
 
 .robot-hair-one {
-    width: 6px;
+    width: 10px;
     height: 15px;
     background: orange;
 }
 
 .robot-hair-two {
-    width: 6px;
-    height: 25px;
+    width: 15px;
+    height: 30px;
     background: plum;
 }
 
 .robot-hair-three {
-    width: 6px;
-    height: 40px;
+    width: 25px;
+    height: 60px;
+    border-radius: 12px 12px 0 0;
     background: magenta;
 }
