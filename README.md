@@ -76,7 +76,7 @@ This assignment should prove that a student is able to:
   - [x] Left ear
   - [x] Right ear
   - [ ] **!!!Optional** Add any other part you want.
-- [ ] Shapes must follow the guidelines:
+- [x] Shapes must follow the guidelines:
   - [x] Each shape must be unique. It is permissible to use the same shape for two paired face elements, but they must have different orientations or directions.
   - [x] Use the following types of shapes:
     - [x] At least one square shape
