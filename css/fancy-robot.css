@@ -1,3 +1,20 @@
+@keyframes earPulse {
+
+    0%,
+    100% {
+        background: red;
+        box-shadow:
+        0 0 10px red,
+        0 0 20px red,
+        0 0 30px red;
+    }
+
+    50% {
+        background: #ff6b6b;
+        box-shadow: 0 0 20px red;
+    }
+}
+
 .robot-container {
     position: relative;
     margin: 120px auto;
@@ -58,14 +75,8 @@
     width: 20px;
     height: 40px;
     background: red;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    box-shadow:
-    0 0 10px red,
-    0 0 20px red,
-    0 0 30px red;
+    border-radius: 20px 0 0 20px;
+    animation: earPulse 2s infinite ease-in-out;
 }
 
 .robot-ear-right {
@@ -76,14 +87,8 @@
     width: 20px;
     height: 40px;
     background: red;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    box-shadow:
-    0 0 10px red,
-    0 0 20px red,
-    0 0 30px red;
+    border-radius: 0 20px 20px 0;
+    animation: earPulse 2s infinite ease-in-out;
 }
 
 .robot-nose {
