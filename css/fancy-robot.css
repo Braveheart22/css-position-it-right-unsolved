@@ -1,7 +1,6 @@
 .robot-container {
-    top: 35px;
     position: relative;
-    margin: 80px auto;
+    margin: 120px auto;
     width: fit-content;
     padding: 20px;
 }
@@ -34,7 +33,8 @@
     top: 30%;
     width: 15%;
     height: 15%;
-    background-image: url(https://picsum.photos/seed/picsum/37/37);
+    background-image: url(https://picsum.photos/id/41/37);
+    border-radius: 10px;
     box-shadow: 0 0 10px aqua;
     left: 20%;
 }
@@ -108,7 +108,7 @@
     gap: 4px;
     width: 180px;
     height: 40px;
-    background: #1c2b3f;
+    background: #203A43;
     border-radius: 0 0 60px 60px;
     padding: 4px;
     overflow: hidden;
@@ -132,18 +132,20 @@
 .robot-hair-one {
     width: 10px;
     height: 15px;
+    opacity: 0.5;
     background: orange;
 }
 
 .robot-hair-two {
     width: 15px;
     height: 30px;
+    opacity: 0.75;
     background: plum;
 }
 
 .robot-hair-three {
-    width: 25px;
-    height: 60px;
+    width: 1.5625em;
+    height: 3.75em;
     border-radius: 12px 12px 0 0;
     background: magenta;
 }
