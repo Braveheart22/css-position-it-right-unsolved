@@ -59,8 +59,8 @@ This assignment should prove that a student is able to:
 - [x] The container for the robot face (face shape) should be positioned/aligned following the rules:
   - [x] It should be horizontally centered to the viewport width and height.
   - [x] The container should not overlap the header section.
-- [ ] Style the shape of the robot face to follow the requirements:
-  - [ ] Should be a simple shape (square, circle, oval).
+- [x] Style the shape of the robot face to follow the requirements:
+  - [?] Should be a simple shape (square, circle, oval).
   - [x] Should have a border of any style, color and width.
   - [x] The face parts should NOT touch the border in their static positions.
   - [x] The corners of the face shape should NOT be a straight (right) angle.
