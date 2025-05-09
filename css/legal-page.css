@@ -34,6 +34,7 @@ section {
   height: max-content;
   padding: 10px 16px;
   position: sticky;
+  top: 180px;
 }
 
 .document-content {
